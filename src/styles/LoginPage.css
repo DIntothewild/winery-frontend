@@ -1,0 +1,75 @@
+.login-container {
+  min-height: 100vh;
+  background-image: url('/images/fondoProducts.webp');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.login-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  padding: 32px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-card h2 {
+  color: #7c0a02; /* Granate elegante */
+  margin-bottom: 24px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #7c0a02;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-card button:hover {
+  background-color: #5e0801;
+}
+
+.login-message {
+  margin-top: 16px;
+  color: #c70000;
+  font-weight: bold;
+}
+
+.login-register-text {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  text-align: center;
+  color: #555;
+}
+
+.register-link {
+  color: #b22222;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.register-link:hover {
+  color: #800000;
+}

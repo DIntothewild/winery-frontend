@@ -1,0 +1,92 @@
+/* General */
+.navbar {
+  background-color: #1a1a1a;
+  position: sticky;
+  z-index: 1000;
+   height: 140px; /* o prueba con 90px o 110px según cómo se vea */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ .navbar-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 48px; /* aumenta el margen de los extremos */
+  box-sizing: border-box;
+}
+
+
+/* Logo */
+.navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+  
+}
+.navbar-logo img {
+  height: 180px;
+  
+}
+
+/* Menú central */
+.navbar-menu {
+  display: flex;
+  gap: 120px;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu a:hover {
+  color: #d4af37;
+}
+
+/* Login + carrito */
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-left: 24px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #d4af37;
+}
+
+.cart-icon {
+  font-size: 2.4rem;
+  color: white;
+ 
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logout-icon {
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.logout-icon:hover {
+  color: #d4af37;
+}
