@@ -1,4 +1,4 @@
-import { useState } from 'react';
+/* import { useState } from 'react';
 import Modal from './Modal';
 import StarRating from './StarRating';
 import { useCartContext } from '../context/CartContext';
@@ -47,3 +47,4 @@ export default function MediaCard({ product }) {
   );
 }
 
+ */

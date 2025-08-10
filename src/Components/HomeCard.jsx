@@ -1,7 +1,7 @@
 // src/components/HomeCard.jsx
 
 
-import Card from '@mui/material/Card';
+/* import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import '../App.css';
@@ -20,6 +20,23 @@ const HomeCard = ({ title, image, route, onClick }) => {
         {title}
       </Typography>
     </Card>
+  );
+};
+
+export default HomeCard; */
+
+// src/components/HomeCard.jsx
+import UnifiedCard from './UnifiedCard';
+
+const HomeCard = ({ title, image, route, onClick }) => {
+  return (
+    <UnifiedCard
+      variant="home"
+      title={title}
+      image={image}
+      route={route}
+      onClick={onClick}
+    />
   );
 };
 

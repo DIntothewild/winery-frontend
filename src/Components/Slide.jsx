@@ -1,5 +1,5 @@
 // src/Components/Slide.jsx
-import '../App.css';
+/* import '../App.css';
 import StarRating from './StarRating';
 import Button from '@mui/material/Button';
 import { useCartContext } from '../context/CartContext';
@@ -41,4 +41,4 @@ export const Slide = ({ image, name, price, description, puntuacion, product }) 
       </Button>
     </div>
   );
-};
+}; */

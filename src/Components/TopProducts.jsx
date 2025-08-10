@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Grid from '@mui/material/Grid';
-import MediaCard from './MediaCard';
-
+import UnifiedCard from './UnifiedCard';
 const TopProducts = () => {
   const [topRated, setTopRated] = useState([]);
   const [topSelling, setTopSelling] = useState([]);
@@ -47,7 +46,7 @@ const TopProducts = () => {
       <Grid container spacing={2}>
         {topRated.map((product) => (
           <Grid item xs={12} sm={6} md={4} lg={3} key={product.id}>
-            <MediaCard product={product} />
+            <UnifiedCard product={product} variant="carousel" />
           </Grid>
         ))}
       </Grid>
@@ -55,7 +54,7 @@ const TopProducts = () => {
       <Grid container spacing={2}>
         {topSelling.map((product) => (
           <Grid item xs={12} sm={6} md={4} lg={3} key={product.id}>
-            <MediaCard product={product} />
+            <UnifiedCard product={product} variant="carousel" />
             
           </Grid>
         ))}

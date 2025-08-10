@@ -5,6 +5,7 @@ import Blog from './Views/Blog';
 import Contacto from './Views/Contacto';
 import Cart from './Views/Cart';
 import Productos from './Views/Productos';
+import ProductPage from './Views/ProductPage';
 import LoginPage from './Views/LoginPage';
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="contacto" element={<Contacto />} />
           <Route path="productos" element={<Productos />} />
+          <Route path="producto/:id" element={<ProductPage />} />
           <Route path="cart" element={<Cart />} />
         </Route>
         <Route path="/login" element={<LoginPage />} />
